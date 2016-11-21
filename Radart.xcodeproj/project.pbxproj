@@ -8,22 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		7D1323151DDFD56100209010 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1323141DDFD56100209010 /* AppDelegate.swift */; };
-		7D1323171DDFD56100209010 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1323161DDFD56100209010 /* FirstViewController.swift */; };
-		7D1323191DDFD56100209010 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1323181DDFD56100209010 /* SecondViewController.swift */; };
+		7D1323171DDFD56100209010 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1323161DDFD56100209010 /* MainVC.swift */; };
+		7D1323191DDFD56100209010 /* RadarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D1323181DDFD56100209010 /* RadarVC.swift */; };
 		7D13231C1DDFD56200209010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D13231A1DDFD56200209010 /* Main.storyboard */; };
 		7D13231E1DDFD56200209010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D13231D1DDFD56200209010 /* Assets.xcassets */; };
 		7D1323211DDFD56200209010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D13231F1DDFD56200209010 /* LaunchScreen.storyboard */; };
+		7DE4BDEE1DDFDE7500D0EBC1 /* Radart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDEC1DDFDE7500D0EBC1 /* Radart.xcdatamodeld */; };
+		7DE4BDF01DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDEF1DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift */; };
+		7DE4BDF21DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDF11DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift */; };
+		7DE4BDF61DDFF0C800D0EBC1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDF51DDFF0C800D0EBC1 /* Constants.swift */; };
+		C7C4CD7E43260BD5B45F99A2 /* Pods_Radart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C90F165FA0EEDB0E76EB0F6 /* Pods_Radart.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DB1FA018AAD7868764A951E /* Pods-Radart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radart.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Radart/Pods-Radart.debug.xcconfig"; sourceTree = "<group>"; };
 		7D1323111DDFD56100209010 /* Radart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Radart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D1323141DDFD56100209010 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D1323161DDFD56100209010 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7D1323181DDFD56100209010 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7D1323161DDFD56100209010 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		7D1323181DDFD56100209010 /* RadarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarVC.swift; sourceTree = "<group>"; };
 		7D13231B1DDFD56200209010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7D13231D1DDFD56200209010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D1323201DDFD56200209010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1323221DDFD56200209010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DE4BDED1DDFDE7500D0EBC1 /* Radart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radart.xcdatamodel; sourceTree = "<group>"; };
+		7DE4BDEF1DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Weather+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7DE4BDF11DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Weather+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7DE4BDF51DDFF0C800D0EBC1 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9C90F165FA0EEDB0E76EB0F6 /* Pods_Radart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Radart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2E6FCEC13BF0F98BEA33E60 /* Pods-Radart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Radart.release.xcconfig"; path = "Pods/Target Support Files/Pods-Radart/Pods-Radart.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7C4CD7E43260BD5B45F99A2 /* Pods_Radart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3792127B837D38B8A9B5ED8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C90F165FA0EEDB0E76EB0F6 /* Pods_Radart.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4358C701C88B5C91EDA5B4CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DB1FA018AAD7868764A951E /* Pods-Radart.debug.xcconfig */,
+				E2E6FCEC13BF0F98BEA33E60 /* Pods-Radart.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7D1323081DDFD56100209010 = {
 			isa = PBXGroup;
 			children = (
 				7D1323131DDFD56100209010 /* Radart */,
 				7D1323121DDFD56100209010 /* Products */,
+				4358C701C88B5C91EDA5B4CF /* Pods */,
+				3792127B837D38B8A9B5ED8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +88,43 @@
 		7D1323131DDFD56100209010 /* Radart */ = {
 			isa = PBXGroup;
 			children = (
+				7DE4BDE91DDFDD9D00D0EBC1 /* Model */,
+				7DE4BDEA1DDFDDA800D0EBC1 /* View */,
+				7DE4BDEB1DDFDDAE00D0EBC1 /* Controller */,
 				7D1323141DDFD56100209010 /* AppDelegate.swift */,
-				7D1323161DDFD56100209010 /* FirstViewController.swift */,
-				7D1323181DDFD56100209010 /* SecondViewController.swift */,
 				7D13231A1DDFD56200209010 /* Main.storyboard */,
 				7D13231D1DDFD56200209010 /* Assets.xcassets */,
 				7D13231F1DDFD56200209010 /* LaunchScreen.storyboard */,
 				7D1323221DDFD56200209010 /* Info.plist */,
+				7DE4BDEC1DDFDE7500D0EBC1 /* Radart.xcdatamodeld */,
+				7DE4BDF51DDFF0C800D0EBC1 /* Constants.swift */,
 			);
 			path = Radart;
+			sourceTree = "<group>";
+		};
+		7DE4BDE91DDFDD9D00D0EBC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DE4BDEF1DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift */,
+				7DE4BDF11DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DE4BDEA1DDFDDA800D0EBC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7DE4BDEB1DDFDDAE00D0EBC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7D1323161DDFD56100209010 /* MainVC.swift */,
+				7D1323181DDFD56100209010 /* RadarVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +134,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7D1323251DDFD56200209010 /* Build configuration list for PBXNativeTarget "Radart" */;
 			buildPhases = (
+				15B65FEA512EDAA17FA9FF28 /* [CP] Check Pods Manifest.lock */,
 				7D13230D1DDFD56100209010 /* Sources */,
 				7D13230E1DDFD56100209010 /* Frameworks */,
 				7D13230F1DDFD56100209010 /* Resources */,
+				0015455E597E6016955CE14B /* [CP] Embed Pods Frameworks */,
+				C42E06F14E72896383CB90B7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,14 +198,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0015455E597E6016955CE14B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Radart/Pods-Radart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		15B65FEA512EDAA17FA9FF28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C42E06F14E72896383CB90B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Radart/Pods-Radart-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7D13230D1DDFD56100209010 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D1323191DDFD56100209010 /* SecondViewController.swift in Sources */,
+				7DE4BDF21DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift in Sources */,
+				7D1323191DDFD56100209010 /* RadarVC.swift in Sources */,
+				7DE4BDEE1DDFDE7500D0EBC1 /* Radart.xcdatamodeld in Sources */,
+				7DE4BDF01DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift in Sources */,
+				7DE4BDF61DDFF0C800D0EBC1 /* Constants.swift in Sources */,
 				7D1323151DDFD56100209010 /* AppDelegate.swift in Sources */,
-				7D1323171DDFD56100209010 /* FirstViewController.swift in Sources */,
+				7D1323171DDFD56100209010 /* MainVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +378,7 @@
 		};
 		7D1323261DDFD56200209010 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DB1FA018AAD7868764A951E /* Pods-Radart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XLYUH65LFN;
@@ -276,6 +392,7 @@
 		};
 		7D1323271DDFD56200209010 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2E6FCEC13BF0F98BEA33E60 /* Pods-Radart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XLYUH65LFN;
@@ -306,8 +423,22 @@
 				7D1323271DDFD56200209010 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7DE4BDEC1DDFDE7500D0EBC1 /* Radart.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7DE4BDED1DDFDE7500D0EBC1 /* Radart.xcdatamodel */,
+			);
+			currentVersion = 7DE4BDED1DDFDE7500D0EBC1 /* Radart.xcdatamodel */;
+			path = Radart.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7D1323091DDFD56100209010 /* Project object */;
 }
