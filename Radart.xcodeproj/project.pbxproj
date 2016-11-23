@@ -13,6 +13,7 @@
 		7D13231C1DDFD56200209010 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D13231A1DDFD56200209010 /* Main.storyboard */; };
 		7D13231E1DDFD56200209010 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D13231D1DDFD56200209010 /* Assets.xcassets */; };
 		7D1323211DDFD56200209010 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D13231F1DDFD56200209010 /* LaunchScreen.storyboard */; };
+		7D778FE61DE63C6300392BA4 /* Contributors in Resources */ = {isa = PBXBuildFile; fileRef = 7D778FE51DE63C6300392BA4 /* Contributors */; };
 		7DE4BDEE1DDFDE7500D0EBC1 /* Radart.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDEC1DDFDE7500D0EBC1 /* Radart.xcdatamodeld */; };
 		7DE4BDF01DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDEF1DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift */; };
 		7DE4BDF21DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4BDF11DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift */; };
@@ -30,6 +31,7 @@
 		7D13231D1DDFD56200209010 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7D1323201DDFD56200209010 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D1323221DDFD56200209010 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D778FE51DE63C6300392BA4 /* Contributors */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Contributors; sourceTree = "<group>"; };
 		7DE4BDED1DDFDE7500D0EBC1 /* Radart.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Radart.xcdatamodel; sourceTree = "<group>"; };
 		7DE4BDEF1DDFEC0A00D0EBC1 /* Weather+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Weather+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7DE4BDF11DDFEC1100D0EBC1 /* Weather+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Weather+CoreDataClass.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				7D1323221DDFD56200209010 /* Info.plist */,
 				7DE4BDEC1DDFDE7500D0EBC1 /* Radart.xcdatamodeld */,
 				7DE4BDF51DDFF0C800D0EBC1 /* Constants.swift */,
+				7D778FE51DE63C6300392BA4 /* Contributors */,
 			);
 			path = Radart;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			files = (
 				7D1323211DDFD56200209010 /* LaunchScreen.storyboard in Resources */,
 				7D13231E1DDFD56200209010 /* Assets.xcassets in Resources */,
+				7D778FE61DE63C6300392BA4 /* Contributors in Resources */,
 				7D13231C1DDFD56200209010 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

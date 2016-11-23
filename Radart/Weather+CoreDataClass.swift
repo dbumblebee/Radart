@@ -36,13 +36,13 @@ public class Weather: NSManagedObject {
     }
     
     func timeToDateString(timeInterval: Double) -> String {
+
         let date = Date(timeIntervalSince1970: timeInterval)
-        
         let dateFormatter = DateFormatter()
         
-        dateFormatter.dateStyle = .medium
-        dateFormatter.timeStyle = .none
         dateFormatter.locale = Locale(identifier: "en_US")
+        dateFormatter.setLocalizedDateFormatFromTemplate("EEEEMMMMd")
+        
         return dateFormatter.string(from: date)
     }
     
@@ -95,6 +95,5 @@ public class Weather: NSManagedObject {
                 completed()
             }
         }
-        
     }
 }

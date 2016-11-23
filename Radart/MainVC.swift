@@ -19,6 +19,7 @@ class MainVC: UIViewController {
     @IBOutlet weak var currentLbl: UILabel!
     @IBOutlet weak var tempLbl: UILabel!
     @IBOutlet weak var locationLbl: UILabel!
+    @IBOutlet weak var dateLbl: UILabel!
     
     var weather: Weather!
     
@@ -32,6 +33,7 @@ class MainVC: UIViewController {
         
         fetchAndSetResults()
         let currentTime = Date()
+
         print("current timestamp: \(weather.currentTimestamp)")
         print("current time  is : \(currentTime.timeIntervalSince1970)")
         if (weather.currentTimestamp == 0) || ((currentTime.timeIntervalSince1970  - weather.currentTimestamp) > 600) {
@@ -75,21 +77,23 @@ class MainVC: UIViewController {
     func updateUI() {
         print("updateUI is running!!!!")
         print("current Temp is: \(weather.currentTemp)")
+        //00B0 is the degree symbol unicode
+        tempLbl.text = String(Int(weather.currentTemp)) + "\u{00B0}"
         locationLbl.text = weather.locationName
-        
-        tempLbl.text = String(Int(weather.currentTemp))
 
         sunriseLbl.text = weather.getSunrise()
         sunsetLbl.text = weather.getSunset()
-
-        currentLbl.text = weather.currentDesc
-    print(weather.currentIcon!)
-        currentImg.image = UIImage(named: weather.currentIcon!)
-
         
-        windLbl.text = String(Int(weather.windSpeed))
+        dateLbl.text = weather.getDate()
+        
+        //print(weather.currentIcon!)
+        currentImg.image = UIImage(named: weather.currentIcon!)
+        currentLbl.text = weather.currentDesc
+
+        windLbl.text = String(Int(weather.windSpeed)) + " MPH"
         //Need to set wind icon to rotate
-//        windImg.image?.imageOrientation = 0
+        //We may need to initialize transform if it is add to existing angle
+        windImg.transform = CGAffineTransform(rotationAngle: CGFloat(weather.windDirection) * CGFloat(M_PI) / 180.0)
         
         print("updateUI is done running!!!!")
     }
